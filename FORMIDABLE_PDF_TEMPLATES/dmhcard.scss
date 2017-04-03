@@ -1,0 +1,48 @@
+/**
+ * DMH Card Layout
+ */
+
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	font-family : sans-serif;
+	font-size 	: 20px;
+}
+
+p {
+	margin: 0 0 1em;
+}
+
+div.dmhcard {
+	height 			: 100%;
+	width 			: 100%;
+
+	div {
+		//border 			: 1px solid gray;
+		float 			: left;
+		width 			: 49.75%;
+		height 			: 49.75%;
+	}
+
+	.card-back {
+		padding 	: 6em 0;
+		text-align 	: center;
+	}
+
+	.inside-msg {
+		padding-top: 3em;
+
+		p {
+			padding: 0.5em 1.5em;
+		}
+	}
+}

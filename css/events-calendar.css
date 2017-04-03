@@ -1,0 +1,160 @@
+#espresso-notices-error, #espresso-ajax-notices-error, .mainContent #ee-single-page-checkout-dv .ee-asterisk, .mainContent #ee-single-page-checkout-dv .ee-input-error, .mainContent #ee-single-page-checkout-dv .ee-required-text {
+  border-color: #9A0404 !important;
+  color: #9A0404 !important;
+}
+#espresso-ajax-notices-error {
+  color: #464647 !important;
+}
+.ee-attention {
+  border-color: #70B956;
+}
+.mainContent #ee-single-page-checkout-dv .ee-needs-value {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+#espresso_calendar table thead {
+  background-color: #618DC2;
+  color: #fff;
+}
+#espresso_calendar .fc-button-agendaWeek, #espresso_calendar .fc-button-month, #espresso_calendar .fc-button-agendaDay {
+  display: none;
+}
+#espresso_calendar .fc-header-title {
+  padding-top: 9px;
+}
+#espresso_calendar .td.fc-day div {
+  min-height: 50px;
+}
+.home #com-events form, .home #com-events h2 {
+  margin-bottom: 20px;
+}
+.home #com-events form, .home #com-events header.page-header {
+  display: none;
+}
+.home #com-events .espresso_events {
+  margin-bottom: 10px;
+  clear: both;
+}
+.home #com-events .espresso_events h2 {
+  margin: 0px;
+  width: 100%;
+  line-height: .55;
+  margin-bottom: 10px;
+}
+.home #com-events header.event-header {
+  padding-top: 0;
+}
+.home #com-events .espresso_events .ee-event-datetimes-ul {
+  margin-left: 0px;
+}
+.home #com-events .espresso_events li.ee-event-datetimes-li {
+  width: 100%;
+  background-color: transparent;
+  color: #464647;
+  font-size: 15px;
+  float: none;
+  text-align: left;
+  padding: 0;
+}
+.home #com-events .event-content p {
+  display: none;
+}
+
+.qtip a.reg-now-btn {
+  background-color: #618DC2;
+  color: #fff;
+  letter-spacing: 1px;
+}
+.qtip a.reg-now-btn:hover {
+  color: #fff;
+}
+.qtip-titlebar {
+  font-size: 14px;
+  line-height: 1.3;
+}
+.qtip-content {
+  font-size: 13px;
+  line-height: 1.1;
+}
+.tkt-slctr-tbl {
+  width: 100%;
+}
+.tkt-slctr-tbl tbody:before {
+    content: "-";
+    display: block;
+    line-height: .5em;
+    color: transparent;
+}
+.event-tickets .tckt-slctr-tbl-tr {
+  min-height: 40px;
+}
+.event-tickets .tckt-slctr-tbl-td-price span{
+  display: none;
+}
+.event-tickets .ticket-selector-submit-btn, .spco-whats-next-buttons .spco-next-step-btn {
+  background-color: #618DC2;
+  color: #fff;
+  letter-spacing: 1px;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: none;
+  border-radius: 2px;
+  margin-right: 20px;
+  margin-top: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.ee-reg-form-attendee-dv label{
+  margin-top: 15px;
+}
+.ee-reg-form-attendee-dv input{
+  padding: 5px;
+  font-size: 14px;
+}
+.ee-button, .ee-button:active, .ee-button:visited {
+background: #618DC2 -webkit-linear-gradient( #618DC2, #4C7CB7 );
+background: #618DC2 -o-linear-gradient( #618DC2, #4C7CB7 );
+background: #618DC2 -moz-linear-gradient( #618DC2, #4C7CB7 );
+background: #618DC2 linear-gradient( #618DC2, #4C7CB7 );
+}
+.give-form #give_purchase_form_wrap input[type=text], .give-form #give_purchase_form_wrap input[type=email]{
+  padding: 5px;
+  font-size: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.give-form #give_purchase_form_wrap input[type=radio] {
+  margin-right: 7px;
+}
+.give-form #give_purchase_form_wrap .give-section-break {
+  border-top: 1px solid #000;
+  padding-top: 10px;
+  margin-top: 27px;
+  font-size: 17px;
+}
+.give-form #give_purchase_form_wrap #honorary_status-wrap {
+  margin-left: 15px;
+}
+
+#give_purchase_form_wrap .form-row-first {
+  clear: both;
+}
+#give_purchase_form_wrap select {
+  height: 32px;
+}
+#give_purchase_submit {
+  clear: both;
+}
+.give-form-title {
+  display: none;
+}
+#give-purchase-button {
+  background-color: #618DC2;
+  color: #fff;
+  padding: 13px 25px;
+  font-size: 18px;
+}
+ul.event-screenings {
+    margin-left: 22px;
+}

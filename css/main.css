@@ -1,0 +1,1144 @@
+/*  Fonts  */
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+/*
+font-family: 'Roboto', sans-serif;
+colors:
+
+blue - #0054a6;
+light blue - #628DC2;
+teal - #0097a5;
+yellow - #eddd4a;
+light gray: #f1f1f2;
+
+*/
+
+/************************
+	 General Styles
+************************/
+* {margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, div {font-family: 'Roboto', sans-serif;}
+h1 {font-size: 24pt;}
+h2 {font-size: 18pt;}
+h3 {font-size: 16pt;}
+h4, p, a, li, td {font-size: 12pt; font-family: 'Roboto', sans-serif;}
+.mobile-only {display: none;}
+.contain {width: 100%; max-width: 960px; margin: auto;}
+img[src=""] {display: none !important;}
+
+/* fix borders on linked images in IE 10 */
+a img {border:0;}
+
+address { display: inline-block; font-style: normal; }
+
+
+.size-auto,
+.size-full,
+.size-large,
+.size-medium,
+.size-thumbnail {
+	max-width: 100%;
+	height: auto;
+}
+
+#frm_form_11_container input[type="submit"] {display:none !important;}
+
+/************************
+		 Top Bar
+************************/
+#topBar {position: fixed; top: 0; z-index: 995; overflow: auto; width: 100%; background: #618dc2; margin: 0; padding: 0;}
+//#topBar .topNav {float: left; width: 70%;}
+#topBar .topNav ul {padding: 6px 0; text-align: center;}
+#topBar .topNav ul li {display: inline-block; list-style: none;}
+#topBar .topNav ul li a {display: block; border-right: 2px solid #fff; color: #fff; font-size: 22px; text-align: left; text-decoration: none; padding: 0 16px;}
+#topBar .topNav ul li:first-child a {margin: 0;}
+#topBar .topNav ul li:last-child a {border: none;}
+#topBar .topNav ul .active a, #topBar .topNav ul li a:hover {text-decoration: underline;}
+#topBar .phone {float: right; width: 20%; background: #0054a6; padding: 8px 0;}
+#topBar .phone p,
+#topBar .phone a {color: #eddd4a; font-size: 22px; text-decoration: none; text-align: center; margin: 0;}
+
+.wrap-phone {
+	background-color: #fff;
+	border-bottom: 1px solid;
+	color: #0054a6;
+	font-size: 22px;
+	position: fixed;
+	top: 37px;
+	z-index: 995;
+	overflow: auto;
+	width: 100%;
+}
+
+.btn-phones {
+	display: none;
+}
+
+.wrap-phone .nav-phones ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	list-style: none;
+}
+
+.wrap-phone a {
+	display: block;
+	font-size: 22px;
+	margin: 0.5em 0.75em;
+}
+
+.wrap-phone .text-blue a {
+	color: #0054a6;
+}
+
+.wrap-phone .text-teal a {
+	color: #0097a5;
+}
+
+
+/************************
+	 General Header
+************************/
+header {padding-top: 95px;}
+/*header {padding-top: 84px;} */
+header .hd-logo {display: inline-block; vertical-align: bottom; width: 35%;}
+header .hd-logo img {max-width: 100%;}
+header .hd-logo a { display: block; }
+header .headerSection {width: 64%; display: inline-block;}
+header .missionStatement {overflow: auto; width: 100%; margin: 0 0 -20px -15px;}
+header .missionStatement img {max-width: 100%;}
+header .search {display: inline-block; vertical-align: bottom; text-align: center; width: 60%;}
+header .search form {background: #f1f1f2; border: 2px solid silver; display: inline-block; vertical-align: bottom; width: 48%;}
+header .search form #s {border: none; background: transparent; float: left; width: 70%; height: 35px; border-right: none; font-size: 14pt; margin: 0 0 0 1%; padding: 0 0 0 10px;}
+header .search form #searchsubmit {border: none; cursor: pointer; float: right; width: 20%; height: 35px; background-color: #F1F1F2; background-image: url('/wp-content/uploads/2015/11/search.png'); background-position: center right; background-repeat: no-repeat; font-size: 14pt; margin: 0 0 0 1%; padding: 0 0 0 10px;}
+header .search .myChart {display: inline-block; vertical-align: bottom; width: 49%;}
+header .search .myChart a {display: block; background: #d7e2ef; color: #0054a6; font-size: 14pt; text-align: center; text-decoration: none; padding: 8px 0;}
+header .search .myChart a:hover {color: #d7e2ef; background: #0054a6;}
+header .social {display: inline-block; vertical-align: bottom; width: 39%;}
+header .social ul {text-align: right;}
+header .social ul li {display: inline-block; list-style: none;}
+header .social ul li a {display: block; width: 40px; height: 39px; background: #0054a6; color: #fff; text-align: center; margin: 0 0 0 10%;}
+header .social ul li a:hover {background: #d7e2ef; color: #0054a6;}
+header .social ul li a i {font-size: 20pt; padding: 6px 0 0 0;}
+
+
+/************************
+	Primary Navigation
+************************/
+#primaryNav {width: 100%; clear: both; padding: 25px 0 15px 0;}
+#primaryNav ul {}
+#primaryNav ul li {display: inline-block; list-style: none;}
+#primaryNav ul li a {display: block; border-right: 2px solid #464647; color: #464647; font-size: 21px; text-align: left; text-decoration: none; margin: 0 0 0 5px; padding: 0 8px 0 0;}
+#primaryNav ul li:first-child a {margin: 0;}
+#primaryNav ul li:last-child a {border: none; padding: 0;}
+#primaryNav ul li.active a, #primaryNav ul li a:hover {color: #0054a6;}
+
+
+/************************
+	   Breadcrumbs
+************************/
+.breadcrumbs {width: 100%; background: #fff; padding: 10px 0;}
+.breadcrumbs p {margin: 0 0 0 10px;}
+.breadcrumbs p, .breadcrumbs a {color: #0054a6; font-size: 20px; text-decoration: none;}
+.breadcrumbs a:hover {text-decoration: underline;}
+
+
+/************************
+		 Hero
+************************/
+.hero {position: relative; width: 100%; height: 250px; background-image: url('/wp-content/uploads/2015/11/default-placeholder.jpg'); background-repeat: no-repeat; background-position: top center; background-size: cover;}
+.hero h1 {position: absolute; bottom: 0; right: 0; max-width: 75%; color: #fff; font-size: 50pt; line-height: 45pt; text-transform: uppercase; text-align: right; margin: 0 20px -8px 0; padding: 0;}
+
+
+/************************
+		 Sidebar
+************************/
+.sideBar {float: left; width: 30%; height: 100%;  min-height: 500px; background: #f1f1f2; padding: 0 0 100px 0;}
+.sideBar h3 {width: 85%; color: #464647; font-size: 16pt; font-weight: 500; margin: auto; padding: 20px 0 0 0;}
+.sideBar .sideMenu {width: 85%; margin: 0 auto 20px auto; padding: 10px 0;}
+.sideBar li {list-style: none; margin: 10px 0;}
+.sideBar li a {color: #0054a6; font-size: 11pt; font-weight: bold; text-decoration: none;}
+.sideBar li a:hover, .sideBar ul li.active a {text-decoration: underline;}
+.sideBar li.active ul li a {text-decoration: none;}
+.sideBar li.active ul li a:hover {text-decoration: underline;}
+.sideBar ul {margin: 0 0 0 10px;  padding: 0;}
+.sideBar ul li {margin: 5px 0;}
+.sideBar ul li a {font-weight: 400;}
+.sideBar li.backButton {margin-top: 15px; padding-top: 10px;}
+.sideBar li.backButton a {color: #464647;}
+.sideBar .add ul li a {font-weight: bold;}
+.sideBar .add ul ul li a {font-weight: 400;}
+.sideBar img {max-width: 100%;}
+.sideBar .info {text-align: center; margin: 10px 0 0 0;}
+.sideBar .info p {font-size: 10pt; font-weight: 500; text-align: center; margin: 10px 0 0 0;}
+
+
+/************************
+	 General Content
+************************/
+.wrapper {position: relative;}
+.main {float: left; width: 70%; padding: 20px 0;}
+.main .mainContent {width: 90%; color: #464647; font-size: 12pt; margin: auto;}
+.main .mainContent h1,
+.main .mainContent h2,
+.main .mainContent h3,
+.main .mainContent h4,
+.main .mainContent h5,
+.main .mainContent h6 {color: #464647; margin: 5px 0;}
+.main .mainContent p,
+.main .mainContent li,
+.main .mainContent td {color: #464647; font-size: 12pt;}
+.main .mainContent ul,
+.main .mainContent ol {margin: 0 0 10px 30px;}
+.main .mainContent li {margin: 2px 0;}
+.main .mainContent p {margin: 0 0 10px 0;}
+.main .mainContent p strong {margin: 20px 0 0 0;}
+.main .mainContent blockquote {margin: 10px 0;}
+.main .mainContent a {color: #0054a6; text-decoration: none;}
+.main .mainContent a:hover {text-decoration: underline;}
+.main .mainContent img {max-width: 100%; margin: 5px 0;height: auto;}
+.main .mainContent img.alignright,
+.main .mainContent img[align="right"] {margin-left: 1em;}
+
+.no-sidebar .main {width: 100%;}
+.no-sidebar .main .mainContent {width: 80%;}
+
+.title {width: 90%; color: #fff; margin: auto; padding: 20px 0;}
+
+.waitTimes {display: none;}
+.page-id-1068 .waitTimes {display: block;}
+.page-id-1068 .waitTimes h4 {font-size: 18px; margin: 10px 0 15px 0;}
+.page-id-1068 .waitTimes p {margin: 0 0 10px 0;}
+
+.gallery img {
+	border: none !important;
+}
+
+.gallery a {
+	display: block;
+}
+
+
+/************************
+	  Template 6 -
+	  (Homepage)
+************************/
+.home .breadcrumbs {display: none;}
+
+.home .main {float: none; width: 100%;}
+
+.home .main .mainContent {overflow: auto; width: 100%; margin: 30px 0 15px 0;}
+
+.home .main .mainContent .communication {float: left; overflow: hidden; width: 40%;}
+.home .main .mainContent .communication .nav {margin: 0; padding: 0;}
+.home .main .mainContent .communication .nav li {transition: all .2s linear; background: #a7a9ac; list-style: none; float: left; width: 50%; color: #fff; font-size: 16pt; text-align: center; text-transform: uppercase; margin: 0; padding: 10px 0;}
+.home .main .mainContent .communication .nav li:hover,
+.home .main .mainContent .communication .nav li.active {cursor: pointer; background: #0054a6;}
+.home .main .mainContent .communication .nav li i {font-size: 18pt; margin: 0 10px 0 0;}
+.home .main .mainContent .communication .com-feed {position: relative; border: 1px solid #3779b9; clear: both;padding-bottom:3em;.}
+.home .main .mainContent .communication .com-feed h2 {color: #0054a6; width: 90%; font-size: 24pt; font-style: italic; text-transform: uppercase; margin: 15px auto 15px;}
+.home .main .mainContent .communication .com-feed h3 {position: absolute; bottom: 0; right: 10px; display: inline; text-transform: uppercase; text-align: right;}
+.home .main .mainContent .communication .com-feed h3 a {font-size: 16pt; font-weight: 400;}
+.home .main .mainContent .communication .com-feed .feed-scroll {overflow: auto;}
+.home .main .mainContent .communication .com-feed #com-events {transition: all .2s linear; display: none;}
+.home .main .mainContent .communication .com-feed #com-news {transition: all .2s linear;}
+.home .main .mainContent .communication .com-feed div {display: none; width: 95%;}
+.home .main .mainContent .communication .com-feed div:first-child,
+.home .main .mainContent .communication .com-feed div:nth-child(2),
+.home .main .mainContent .communication .com-feed div:nth-child(3) {display: block; margin: 0 auto 0 auto;}
+.home .main .mainContent .communication .com-feed div h4 a {width: 85%; display: inline-block; vertical-align: top;}
+.home .main .mainContent .communication .com-feed div h4 i {width: 10%; display: inline-block; vertical-align: top; color: #0054a6; font-size: 16pt;}
+.home .main .mainContent .communication .com-feed div .date {width: 80%; color: #a7a9ac; font-family: 'Roboto', sans-serif; font-size: 9pt; margin: 3px auto 3px auto;}
+.home .main .mainContent .communication .com-feed div .excerpt {width: 80%; font-family: 'Roboto', sans-serif; font-size: 10pt; padding: 0 0 10px 0;}
+.home .main .mainContent .communication .com-feed #com-events div p {margin-left: 30px;}
+
+.home .main .mainContent .wait_vid {width: 57%; float: right;}
+.home .main .mainContent .wait_vid .box-title {transition: all .2s linear; background: #0054a6; list-style: none; width: 100%; max-width: 280px; color: #fff; font-size: 16pt; text-align: left; text-transform: uppercase; margin: 0; padding: 10px 10px 10px 20px;}
+.home .main .mainContent .wait_vid .box-title i {font-size: 18pt; margin: 0 10px 0 0;}
+.home .main .mainContent .wait_vid .wait {margin: 0 0 20px 0;}
+.home .main .mainContent .wait_vid .wait .times {transition: all .2s linear; border: 1px solid #3779b9; min-height: 200px; background: #628DC2;}
+.home .main .mainContent .wait_vid .wait .times .location {padding: 30px 0 0 0;}
+.home .main .mainContent .wait_vid .wait .times .location h4 {width: 100%; font-size: 28px; font-style: italic; font-weight: 500; text-align: center; color: #fff; margin-bottom: 10px;}
+.home .main .mainContent .wait_vid .wait .times .location p {display: block; background: #628DC2; width: 100%; max-width: 100%; font-size: 20px; font-style: italic; font-weight: 200; text-align: center; color: #fff; margin: 0 0 5px 0; padding: 0;}
+.home .main .mainContent .wait_vid .wait .times .location p.time {font-weight: 400;}
+.home .main .mainContent .wait_vid .wait .times .location p.count {}
+.home .main .mainContent .wait_vid .wait .times .moreInfo {width: 100%; margin: 17px 0 0 0;}
+.home .main .mainContent .wait_vid .wait .times .moreInfo h4 {cursor: pointer; color: #fff; width: 100%; text-align: center;}
+.home .main .mainContent .wait_vid .wait .times .moreInfo h4:hover {text-decoration: underline;}
+.home .main .mainContent .wait_vid .wait .times .moreInfo p {display: none; width: 100%; max-width: 90%; background: transparent; font-size: 12px; text-align: justify;}
+
+.home .main .mainContent .moreInfo p {display: none; width: 100%; max-width: 90%; background: transparent; font-size: 12px; text-align: justify;}
+.home .main .mainContent .moreInfo h4 {cursor: pointer; color: #fff; width: 100%; text-align: center;}
+.home .main .mainContent .moreInfo h4:hover {text-decoration: underline;}
+
+.home .wrap-infos {
+	border: 1px solid;
+	padding: 1em;
+}
+
+.home .wrap-infos h4 {
+	color: #fff;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+.home .wrap-infos h4 a,
+.home .wrap-infos .info1 {
+	display: block;
+	padding: 0.75em;
+	margin: 0.75em 0;
+}
+
+.info-content p {
+	background-color: #628DC2;
+	font-weight: 700;
+	margin: 0.75em 0 !important;
+	padding: 0.75em;
+	text-transform: uppercase;
+}
+
+.home .main .mainContent .wrap-infos p, 
+.home .main .mainContent .wrap-infos a { color: #fff; }
+
+.home .main .mainContent .info-box {
+	background-color: #628DC2;
+}
+
+.home .main .mainContent .info-box.info1 {
+	margin-top: 0;
+}
+
+.home .box-title {transition: all .2s linear; background: #0054a6; list-style: none; width: 100%; max-width: 280px; color: #fff; font-size: 16pt; text-align: left; text-transform: uppercase; margin: 0; padding: 10px 10px 10px 20px;}
+.home .box-title i {font-size: 18pt; margin: 0 10px 0 0;}
+.home .box-title-link {text-decoration: none;}
+
+.home .main .mainContent .wait_vid .videos .vids {overflow: auto; border: 1px solid #3779b9; min-height: 280px; padding: 10px 0 11px 0;}
+.home .main .mainContent .wait_vid .videos .vids .vid {float: left; position: relative; width: 46.5%; height: 143px; background-size: cover; background-repeat: no-repeat; margin: 10px 0 0 2%; border: 1px solid #3779b9;}
+.home .main .mainContent .wait_vid .videos .vids .vid h3 {position: absolute; bottom: 0; width: 100%; font-size: 13pt; font-weight: 400; text-align: center; text-transform: uppercase; color: #fff; background: rgba(0,84,166,0.8); margin: 0; padding: 3px 0;}
+
+.home .videos {
+	margin-bottom: 30px;
+}
+
+.home .vids {
+	border: 1px solid #3779b9;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 1.25em 1% 0;
+} 
+
+.home .vid {
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	border: 1px solid #3779b9;
+	height: 143px;
+	margin-bottom: 1.25em;
+	position: relative; 
+	width: 22.3%; 
+}
+
+.home .vid-title {
+	background: rgba(0,84,166,0.8); 
+	bottom: 0; 
+	color: #fff; 
+	font-size: 13pt; 
+	font-weight: 400; 
+	margin: 0; 
+	padding: 3px 0;
+	position: absolute; 
+	text-align: center; 
+	text-transform: uppercase; 
+	width: 100%; 
+}
+
+.homefooter {width: 100%; background: #91afd4; padding: 25px 0;}
+.homefooter ul {width: 100%; text-align: center;}
+.homefooter ul li {list-style: none; display: inline-block; margin: 10px auto 1.5em;vertical-align:top;}
+.homefooter ul li a {display: block; color: #fff; text-align: center; text-decoration: none; padding: 0 22px;}
+.homefooter ul li i {display: block; font-size: 40pt; margin: 0 0 10px 0;}
+.homefooter ul li a span {display: block; font-size: 16pt; text-transform: uppercase;s}
+.homefooter ul li a:hover span {text-decoration: underline;}
+.homefooter .link-img {display:block; margin:0 auto 10px;}
+
+.homefooter ul li:first-child:nth-last-child(1) {width:100%;}
+.homefooter ul li:first-child:nth-last-child(2),
+.homefooter ul li:first-child:nth-last-child(2) ~ li {width:50%;}
+.homefooter ul li:first-child:nth-last-child(3),
+.homefooter ul li:first-child:nth-last-child(3) ~ li {width:33%;}
+.homefooter ul li:first-child:nth-last-child(4),
+.homefooter ul li:first-child:nth-last-child(4) ~ li {width:25%;}
+.homefooter ul li:first-child:nth-last-child(5),
+.homefooter ul li:first-child:nth-last-child(5) ~ li {width:20%;}
+.homefooter ul li:first-child:nth-last-child(6),
+.homefooter ul li:first-child:nth-last-child(6) ~ li {width:33%;}
+
+/**
+ * DMH Home Page Email Subscription Form
+ */
+.dmh-newsletter-form-container {
+	border-bottom: 1px solid #0054a6;
+	border-top: 1px solid #0054a6;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+
+.dmh-newsletter-form-wrap {
+	display			: flex;
+	flex-wrap 		: wrap;
+	justify-content	: center;
+	margin			: 0 auto;
+	max-width		: 960px;
+}
+
+.dmh-newsletter-content {
+	display: flex;
+}
+
+.dmh-newsletter-icon-wrap {
+	padding: 1em 2em;
+}
+
+.dmh-newsletter-form-icon {
+	max-height: 100px;
+}
+
+.dmh-newsletter-content-wrap {
+	max-width: 30%;
+	padding: 1em 2em;
+}
+
+.dmh-newsletter-form-headline {
+	color: #0054a6;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.dmh-newsletter-form-content {
+	
+}
+
+.dmh-newsletter-form {
+	
+}
+
+.dmh-newsletter-field {
+	background-color: #f1f1f2;
+	border: 2px solid silver;
+	line-height: 2.5;
+	margin-bottom: 1em;
+	min-width: 250px;
+	width: 100%;
+}
+
+.dmh-newsletter-submit {
+	background-color: #0054a6;
+	border: 2px solid #0054a6;
+	color: #fff;
+	display: block;
+	font-size: 1.25em;
+	min-width: 250px;
+	padding: 0.25em 0.5em;
+	text-align: center;
+	width: 100%;
+}
+
+.dmh-newsletter-label {
+	font-size: 0.85em;
+}
+
+.dmh-newsletter-label a {
+	font-size: 1em;
+}
+
+
+/************************
+	  News Archive
+************************/
+.archive h2 {font-size: inherit;}
+.archive .excerpt {margin-bottom: 20px;}
+.archive .excerpt a {font-size: 80%;}
+
+.sideBar li.news-topic {color: #0054a6; font-size: 11pt; font-weight: bold;}
+.sideBar li.news-topic ul li a {font-weight: 400;}
+
+.post-type-archive-news .main .mainContent i {display: inline-block; vertical-align: top; width: 5%; color: #0054a6; font-size: 18pt; padding: 4px 0 0 0;}
+.post-type-archive-news .main .mainContent article {display: inline-block; vertical-align: top; width: 93%;}
+
+.isNews {display: none;}
+.tax-news-topic .isNews {display: block;}
+.tax-news-topic .notNews {display: none;}
+.tax-news-topic .isNews i {display: inline-block; vertical-align: top; width: 5%; color: #0054a6; font-size: 18pt; padding: 4px 0 0 0;}
+.tax-news-topic .isNews article {display: inline-block; vertical-align: top; width: 93%;}
+
+
+/************************
+	 News Single
+************************/
+.single-news .main .news-title {color: #0054a6; padding-bottom: 10px; border-bottom: 1px solid #000;}
+.single-news .main .news-date {padding: 3px 0 15px;}
+
+
+/************************
+	 Carousel Slider
+************************/
+[role="button"] { cursor: pointer;}
+.sliderWrap .carousel-inner .item {width: 100%; height: 500px; background-size: cover; background-repeat: no-repeat;}
+.sliderWrap .carousel-indicators {position: relative; width: 100%; bottom: 0; left: 0; margin: 0;}
+.carousel-control.left, .right.carousel-control {background-image: none !important; height: 500px;}
+.sr-only {position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); border: 0;}
+.glyphicon-chevron-left {}
+.glyphicon-chevron-right {}
+.carousel {position: relative; }
+.carousel-inner {position: relative; width: 100%; overflow: hidden;}
+.carousel-inner > .item {position: relative; display: none; -webkit-transition: .6s ease-in-out left; -o-transition: .6s ease-in-out left; transition: .6s ease-in-out left;}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {line-height: 1;}
+.slideFooter {background: #F1F1F3; margin: 20px 0 0 0; padding: 10px 0;}
+.boxes {width: 100%; margin: auto; padding: 10px 0;}
+.boxes .box {background-repeat: no-repeat; background-size: cover; cursor: pointer; position: relative; display: inline-block; width: 23.7%; height: 135px; margin: 0 1.3% 0 0;}
+.boxes .box:last-child {margin: 0;}
+.boxes .box h3 {display: none; position: absolute; bottom: 0; width: 100%; font-style: italic; font-weight: 400; text-align: center; color: #F4DB38; background: rgba(000,000,000,0.5); padding: 5px 0;}
+.boxes .box .hover {position: absolute; width: 100%; height: 100%; background: rgba(000,000,000,0.5);}
+.boxes .box .hover h4 {display: inline-block; vertical-align: middle; width: 100%; margin-top: 25%; text-align: center; color: #fff;}
+.boxes .box:hover .hover h4 {display: none;}
+.boxes .box:hover h3 {display: block;}
+.boxes .box:hover .hover {background: none;}
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+  .carousel-inner > .item { -webkit-transition: -webkit-transform .6s ease-in-out; -o-transition: -o-transform .6s ease-in-out; transition: transform .6s ease-in-out; -webkit-backface-visibility: hidden; backface-visibility: hidden; -webkit-perspective: 1000px; perspective: 1000px;}
+  .carousel-inner > .item.next,
+  .carousel-inner > .item.active.right {left: 0; -webkit-transform: translate3d(100%, 0, 0); transform: translate3d(100%, 0, 0);}
+  .carousel-inner > .item.prev,
+  .carousel-inner > .item.active.left {left: 0; -webkit-transform: translate3d(-100%, 0, 0); transform: translate3d(-100%, 0, 0);}
+  .carousel-inner > .item.next.left,
+  .carousel-inner > .item.prev.right,
+  .carousel-inner > .item.active {left: 0; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0);}
+}
+
+.carousel-inner > .active,
+.carousel-inner > .next,
+.carousel-inner > .prev {display: block;}
+.carousel-inner > .active {left: 0;}
+.carousel-inner > .next,
+.carousel-inner > .prev {position: absolute; top: 0; width: 100%;}
+.carousel-inner > .next {left: 100%;}
+.carousel-inner > .prev {left: -100%;}
+.carousel-inner > .next.left,
+.carousel-inner > .prev.right {left: 0;}
+.carousel-inner > .active.left {left: -100%;}
+.carousel-inner > .active.right {left: 100%;}
+.carousel-control {position: absolute; top: 0; bottom: 0; left: 0; width: 15%; font-size: 20px; color: #fff; text-align: center; text-shadow: 0 1px 2px rgba(0, 0, 0, .6); filter: alpha(opacity=50);}
+.carousel-control.left {background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%); background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%); background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001))); background-image:         linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1); background-repeat: repeat-x;}
+.carousel-control.right {right: 0; left: auto; background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%); background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%); background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5))); background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%); filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1); background-repeat: repeat-x;}
+.carousel-control:hover,
+.carousel-control:focus {color: #fff; text-decoration: none; filter: alpha(opacity=90); outline: 0; opacity: .9;}
+.carousel-control .icon-prev,
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .glyphicon-chevron-right {position: absolute; top: 50%; z-index: 5; display: inline-block; margin-top: -10px;}
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-left {left: 50%; margin-left: -10px;}
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right {right: 50%; margin-right: -10px;}
+.carousel-control .icon-prev,
+.carousel-control .icon-next {width: 20px; height: 20px; font-family: serif; line-height: 1;}
+.carousel-control .icon-prev:before {content: '\2039';}
+.carousel-control .icon-next:before {content: '\203a';}
+.carousel-indicators {position: absolute; bottom: 10px; left: 50%; z-index: 15; width: 60%; padding-left: 0; margin-left: -30%; text-align: center; list-style: none;}
+.carousel-indicators li {display: inline-block; width: 5px; height: 5px; margin: 1px; text-indent: -999px; cursor: pointer; background-color: #ABACAE; border-radius: 0;}
+.carousel-indicators .active,
+.carousel-indicators li:hover {background-color: #0054a6;}
+.carousel-caption {position: absolute; right: 0; bottom: 0; z-index: 10; width: 75%; padding: 0; margin: 0 20px -8px 0; color: #fff; font-family: 'Roboto', sans-serif; font-size: 50pt; font-weight: bold; text-align: right; text-transform: uppercase; line-height: 45pt;}
+.carousel-caption .btn {text-shadow: none;}
+
+@media screen and (min-width: 768px) {
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-prev,
+  .carousel-control .icon-next {width: 30px; height: 30px; margin-top: -15px; font-size: 60px;}
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .icon-prev {margin-left: -65px;}
+  .carousel-control .glyphicon-chevron-right,
+  .carousel-control .icon-next {margin-right: -65px;}
+  .carousel-indicators {bottom: 20px;}
+}
+
+
+/************************
+	 Template 10 -
+	 (Cancer Care)
+************************/
+.cancer .breadcrumbs {display: none;}
+.cancer .main .color-block {}
+.cancer .main .color-block  h2 {color: #fff; font-size: 26pt; font-weight: 400; line-height: 26pt; width: 90%; margin: auto; padding: 20px 0;}
+.cancer .main .mainContent .column.one {width: 50%; float: left;}
+.cancer .main .mainContent .column.two {width: 50%; float: left;}
+.cancer .main .mainContent .column .content {width: 80%;}
+.cancer .main .mainContent .column p,
+.cancer .main .mainContent .column li,
+.cancer .main .mainContent .column li a {color: #0054A6;}
+.cancer .main .mainContent .column p {margin: 0; padding: 0;}
+.cancer .main .mainContent .column ul {margin: 0; padding: 0;}
+.cancer .main .mainContent .column li {list-style: none; margin: 1px 0; padding: 0;}
+
+
+/************************
+	Template 5 -
+	(Care & Treatment)
+************************/
+.main.ct {float: none; width: 100%; padding: 0;}
+.main.ct .mainContent {width: 100%;}
+.main.ct .mainContent .heading h1 {float: left; width: 100%; max-width: 350px; font-size: 40px; font-weight: 400; margin: 10px 0 0 10px;}
+.main.ct .mainContent .heading .selection {float: left; width: 35%; padding: 25px 0 0 0;}
+.main.ct .mainContent .heading .selection select {width: 100%; max-width: 300px; color: #464647; font-size: 16px; border: 1px solid #6f9ecd; border-radius: 1px; padding: 1px 0 1px 10px;}
+.main.ct .mainContent .heading .headContent {width: 100%; max-width: 60%;}
+.main.ct .mainContent .groups {clear: both; overflow: auto; padding: 20px 0 10px 0;}
+.main.ct .mainContent .groups .group {float: left; position: relative; cursor: pointer; width: 31%; text-decoration: none; margin: 0 3% 15px 0;}
+.main.ct .mainContent .groups .group .info {display: none; overflow: hidden; text-align: center;  width: 100%; height: 100%; line-height: 200px; background: rgba(000,000,000,0.7);}
+.main.ct .mainContent .groups .group .info h4 {overflow: hidden; width: 95%; display: inline-block; vertical-align: middle; color: #fff; line-height: normal; text-align: center; text-decoration: none;}
+.main.ct .mainContent .groups .group:hover .info {display: block;}
+.main.ct .mainContent .groups .group:nth-child(3n) {margin-right: 0;}
+.main.ct .mainContent .groups .group .color {width: 100%; height: 20px;}
+.main.ct .mainContent .groups .group .image {width: 100%; height: 200px; background-repeat: no-repeat; background-size: cover;}
+.main.ct .mainContent .groups .group h3 {background: #f7f8f8; color: #0054a6; font-weight: 400; text-transform: uppercase; text-align: center; margin: 0; padding: 5px 0;}
+
+
+/************************
+	Template 6 -
+	(Locations)
+************************/
+.location .main .mainContent {width: 95%; overflow: auto; margin: 0 0 0 auto;}
+.location .sideBar ul {margin: 0 0 0 10px;  padding: 0;}
+.location .sideBar ul li {margin: 5px 0;}
+.location .sideBar ul li a {font-weight: bold !important;}
+.location .sideBar ul ul li a {font-weight: 400 !important;}
+.main .mainContent .loc {float: left; width: 50%;}
+.main .mainContent .loc h3 {background: #a7a9ac; width: 50%; color: #fff; font-weight: 400; text-align: center; margin: 0; padding: 5px 0;}
+.main .mainContent .loc .loc-select {border: 1px solid #3779b9; margin: auto; padding: 15px 0;}
+.main .mainContent .loc .loc-select p {text-align: center;}
+.main .mainContent .loc .loc-select select {display: block; width: 90%; color: #464647; font-size: 16px; border: 1px solid #6f9ecd; border-radius: 1px; margin: auto; padding: 1px 0 1px 10px;}
+.main .mainContent .loc .mapp-layout {width: 99% !important; margin: 20px 0; padding: 0;}
+.main .mainContent .loc-content {float: right; width: 45%; border: 1px solid #3779b9;}
+.main .mainContent .loc-content .detail {width: 90%; margin: auto; padding: 0 0 15px 0;}
+.main .mainContent .loc-content .detail img {max-width: 100%;}
+.main .mainContent .loc-content .detail h3 {color: #0054a6; margin: 15px 0 0 0;}
+.main .mainContent .loc-content .detail h4 {color: #0054a6; margin: 10px 0 0 0;}
+.main .mainContent .loc-content .detail p {}
+.main .mainContent .loc-content .detail a {color: #464647; text-decoration: underline;}
+
+
+/************************
+	Templates 3, 7, & 8 -
+	(Doctors)
+************************/
+.doctors .main .mainContent,
+.archive.tax-dr-specialty .main .mainContent {width: 95%; overflow: auto; margin: 0 0 0 auto;}
+.main .mainContent .doc-head {overflow: auto;}
+.main .mainContent .doc {float: left; overflow: auto; width: 48%;}
+.main .mainContent .doc h3 {background: #a7a9ac; width: 50%; color: #fff; font-size: 14pt; font-weight: 400; text-align: center; margin: 0; padding: 5px 0;}
+.main .mainContent .doc .doc-search form .border {border: 1px solid #3779b9; padding: 5px 0 15px 0;}
+.main .mainContent .doc .doc-search form p {width: 90%; color: #a7a9ac; margin: 15px auto 5px auto;}
+.main .mainContent .doc .doc-search form a {display: block; width: 90%; font-size: 9pt; font-weight: bold; margin: 15px auto 0 auto;}
+.main .mainContent .doc .doc-search #s {color: #464647;  display: block; width: 90%; border: 1px solid #3779b9; margin: auto; padding: 5px 3px;}
+.main .mainContent .doc .doc-search #searchdoctors {cursor: pointer; width: 50%; display: block; background: #0054a6; color: #fff; border-radius: none; border: 1px outset silver; font-size: 14pt; margin: 10px 0 0 10px; padding: 5px 0;}
+.main .mainContent .doc .doc-search #searchdoctors:hover {background: #a7a9ac;}
+.main .mainContent .doc.col-2 {float: right;}
+.main .mainContent .doc .doc-specialty {border: 1px solid #3779b9; min-height: 130px; padding: 15px 0 15px 0;}
+.main .mainContent .doc .doc-specialty select {color: #464647; display: block; width: 90%; border: 1px solid #3779b9; margin: auto; padding: 3px;}
+.main .mainContent .doc .doc-specialty p {width: 90%; color: #a7a9ac; margin: 5px auto 5px auto;}
+.main .mainContent .doc .doc-specialty a {display: block; width: 90%; font-size: 9pt; font-weight: bold; margin: 15px auto 0 auto;}
+.doctors .main .mainContent .doc-list {clear: both; padding: 30px 0;}
+.doctors .main .mainContent .doc-list h2 {color: #0054a6; font-weight: 500;}
+.doctors .main .mainContent .doc-list .viewAll {width: 100px; cursor: pointer; color: #0054a6; font-size: 12pt; font-weight: 400; margin: 5px 0;}
+.doctors .main .mainContent .doc-list .letters {margin: 0; padding: 0;}
+.doctors .main .mainContent .doc-list .letters li {color: #0054a6; list-style: none; display: inline-block; cursor: pointer; width: 3.2%;}
+.doctors .main .mainContent .doc-list .letters li:hover {text-decoration: underline;}
+.doctors .main .mainContent .doc-list .doc-name {margin: 30px 0;}
+.doctors .main .mainContent .doc-list .doc-name.hide {display: none;}
+.doctors .main .mainContent .doc-list .doc-name h3 {color: #0054a6; font-weight: 500; margin: 0;}
+.doctors .main .mainContent .doc-list .doc-name a {text-decoration: underline;}
+.doctors .main .mainContent .doc-list ul.specialties {padding: 10px 0; width: 50%; margin: 0; float: left;}
+.doctors .main .mainContent .doc-list .specialties li {list-style: none; font-weight: 400; margin: 3px 0 3px 10px;}
+.doctors .main .mainContent .doc-list .specialties > li::before {color: #0054a6; display: inline-block; vertical-align: middle; content: "\f111"; font-size: 5pt; font-family: FontAwesome; font-style: normal; font-weight: normal; margin: 0 10px 0 0;}
+.doctors .main .mainContent .doc-list .specialties > li > ul {display: none;}
+.doctors .main .mainContent .doctor {clear: both; overflow: auto; border: 1px solid #3779b9; margin: 20px 0; padding: 30px 0; }
+.doctors .main .mainContent .doctor .column.left {width: 45%; float: left;}
+.doctors .main .mainContent .doctor .column.right {width: 55%; float: left;}
+.doctors .main .mainContent .doctor .column .content {width: 85%; margin: auto;}
+.doctors .main .mainContent .doctor .column .content .section {margin-bottom: 10px;}
+.doctors .main .mainContent .doctor .column .content img {max-width: 100%;}
+.doctors .main .mainContent .doctor .column .content img[src=""] {display: none !important;}
+.doctors .main .mainContent .doctor .column .content h3 {color: #0054a6; margin: 0 0 20px 0;}
+.doctors .main .mainContent .doctor .column .content h4 {color: #0054a6; margin: 10px 0 0 0;}
+.doctors .main .mainContent .doctor .column .content h4:first-child {margin: 0;}
+.doctors .main .mainContent .doctor .column .content p {margin: 0 0 5px 0;}
+.doc-tax {display: none;}
+.main .mainContent .doc-tax h2 a {display: block; padding: 5px 0;}
+.tax-dr-specialty .doc-tax {display: block;}
+.tax-dr-specialty .notDoctors {display: none;}
+
+
+/************************
+	 MyChart Page
+************************/
+.mychart-login-box {
+	background-color: #fff;
+	margin-bottom: 1em;
+}
+
+.mychart-login-box-title {
+	background-color: #0054a6;
+	color: #fff !important;
+	display: inline-block;
+	margin: 0 !important;
+	padding: 0.5em 1em;
+}
+
+.mychart-login-box-content {
+	border: 1px solid #0054a6;
+	padding: 0 2em;
+}
+
+.mychart-login-box-content hr {
+	margin: 0.5em 0;
+}
+
+.mychart-login-box-content p {
+	margin: 0.5em 0 !important;
+}
+
+.mychart-login-box-content .btn {
+	background-color: #0054a6 !important;
+	color: #fff !important;
+	display: inline-block;
+}
+
+.dmh-mychart h1 {
+	font-size: 2.5em;
+	line-height: 1;
+	text-transform: uppercase;
+}
+
+.dmh-mychart .mainContent {
+	line-height: 1.5;
+}
+
+.mychart-top-content:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.mychart-icon-boxes {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mychart-icon-boxes .icon-top .icon-box-icon,
+.mychart-icon-boxes .icon-bottom .icon-box-icon {
+	display: block;
+	margin: 0 auto;
+}
+
+.mychart-icon-boxes .icon-right,
+.mychart-icon-boxes .icon-left {
+	border-bottom: 4px dotted;
+	border-top: 4px dotted;
+	display: flex;
+	padding: 1em 0;
+	width: 100%;
+}
+
+.mychart-icon-boxes .icon-right .icon-box-icon {
+	margin-left: 1em;
+}
+
+.mychart-icon-boxes .icon-left .icon-box-icon {
+	margin-right: 1em;
+}
+
+.mychart-icon-boxes .icon-box-heading {
+	text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+
+	.icon-box {
+		width: 100%;
+	}
+
+	.mychart-icon-boxes .icon-top,
+	.mychart-icon-boxes .icon-bottom {
+		padding: 1em 0;
+	}
+
+	.mychart-icon-boxes .icon-top:nth-child(3),
+	.mychart-icon-boxes .icon-bottom:nth-child(3),
+	.mychart-icon-boxes .icon-top:nth-child(6),
+	.mychart-icon-boxes .icon-bottom:nth-child(6) {
+		border-top: 4px dotted;
+	}
+
+	.mychart-login-box {
+		margin-bottom: 3em;
+	}
+}
+
+@media (min-width: 769px) {
+	.mychart-icon-boxes .icon-top,
+	.mychart-icon-boxes .icon-bottom {
+		width: 50%;
+	}
+
+	.mychart-icon-boxes .icon-top .icon-box-content,
+	.mychart-icon-boxes .icon-bottom .icon-box-content {
+		margin: 1.5em 0;
+		padding: 0 1.5em;
+	}
+
+	.mychart-icon-boxes .icon-top:nth-child(3n) .icon-box-content,
+	.mychart-icon-boxes .icon-bottom:nth-child(3n) .icon-box-content {
+		border-left: 4px dotted;
+	}
+
+	.mychart-login-box {
+		border-left: 1.5em solid #fff;
+		float: right;
+	}
+}
+
+
+
+/************************
+	 Search
+************************/
+.search .doc-head {margin-bottom: 30px;}
+.main .mainContent h2.search-title {margin-bottom: 20px; border-bottom: 1px solid #464646;}
+
+
+/************************
+		Footer
+************************/
+footer {width: 100%; clear: both; background: #618dc2; padding: 10px 0;}
+footer p, footer span, footer address, footer .copyright,
+footer a {color: #fff; font-size: 10pt; text-align: center; text-decoration: none; line-height: 16pt;}
+footer ul {text-align: center;}
+footer ul li {display: inline-block; list-style: none;}
+footer ul li a {display: block; border-left: 1px solid #fff; color: #fff; font-size: 10pt; text-align: center; text-decoration: none; line-height: 12pt; padding: 0 3px 0 6px;}
+footer ul li:first-child a {border: none;}
+footer ul li a:hover, footer ul li.active a {text-decoration: underline;}
+
+
+
+
+.fa.after {
+	margin-left: 0.5em;
+}
+
+// Add PDF icon after all PDF links
+a[href$=".pdf"]::after {
+	content: "\f1c1";
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	height: 1em;
+	line-height: 1;
+	margin-left: 0.5em;
+	speak: none;
+	text-align: center;
+	text-decoration: none;
+	text-rendering: auto;
+	text-transform: none;
+	width: 1em;
+	-webkit-font-smoothing: antialiased;
+}
+
+
+
+
+/************************
+	 Molecular Medicine
+************************/
+.mm-boxes {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mm-box {
+	width: 31%;
+	margin: 0 1%;
+}
+
+.mm-img-box {
+	align-items: center;	
+	background-color: #0054a6;
+	background-position: center center;
+	background-size: cover;
+	color: transparent;
+	display: flex;
+	height: 160px;
+	justify-content: center;
+	text-align: center;
+}
+
+.mm-img-box:hover {
+	background-image: url() !important;
+	color: #fff;
+}
+
+.mm-roll {
+	padding: 1em;
+}
+
+.mm-title {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.mm-links {
+	list-style: none;
+	margin: 0 !important;
+	padding: 0;
+}
+
+.mm-link-wrap {
+	margin-bottom: 0.5em !important;
+	text-align: center;
+}
+
+
+
+
+/************************
+	 Mobile Styles
+************************/
+@media (max-width:960px) {
+
+	/* General */
+	h1 {font-size: 20pt;}
+	h2 {font-size: 16pt;}
+	h3 {font-size: 14pt;}
+	h4, p, a, li, td {font-size: 10pt;}
+
+	/* Navigation */
+	#topBar .topNav {width: 65%}
+	#topBar .topNav ul li {width: 14%;}
+	#topBar .topNav ul li a {font-size: 12pt; text-align: center; padding: 0;}
+	#topBar .phone {width: 35%;}
+	#topBar .phone p,
+	#topBar .phone a {font-size: 10pt;}
+	header {width: 95%; margin: auto; padding-top: 79px;}
+	header .search form input {height: 30px;}
+	header .search .myChart a {font-size: 12pt;}
+	header .social ul li a {width: 30px; height: 30px;}
+	header .social ul li a i {font-size: 15pt; padding: 5px 0 0 0;}
+	#primaryNav ul {text-align: center;}
+	#primaryNav ul li {}
+	#primaryNav ul li a {font-size: 12pt; padding: 0 5px 0 0; margin: 0 0 0 5px;}
+
+	.homefooter ul li a {padding: 0 30px;}
+	
+	.home .vid {width:46.5%;}
+
+	.wrap-phone {top: 31px;}
+
+	/* Care & Treatment */
+	.main.ct {float: none; width: 95%; margin: auto; padding: 0;}
+	.main.ct .mainContent .heading h1 {font-size: 34px; max-width: 300px;}
+	.main.ct .mainContent .groups .group:nth-child(3n) {margin-right: 0;}
+	.main.ct .mainContent .groups .group:nth-child(odd) {margin-right: 3%;}
+	.main.ct .mainContent .groups .group {width: 47%;}
+	.main.ct .mainContent .groups .group .image {height: 175px;}
+	.main.ct .mainContent .groups .group h3 {font-size: 16px;}
+
+	.homefooter ul li:first-child:nth-last-child(5),
+	.homefooter ul li:first-child:nth-last-child(5) ~ li {width:32%;}
+
+	.mm-box {
+		width: 48%;
+	}
+
+}
+
+
+@media (max-width:768px) {
+
+	/* General */
+	.mobile-only {display: block;}
+	.desktop-only {display: none;}
+	.breadcrumbs {display: none;}
+
+	/* Navigation */
+	#topBar {z-index: 996;}
+	#topBar .topNav {width: 100%;}
+	#topBar .topNav ul {text-align: center;}
+	#topBar .topNav ul li a {font-size: 10pt;}
+	#topBar .phone {width: 100%;}
+	#mobileNav {width: 100%; overflow: auto; cursor: pointer;}
+	#mobileNav h3 {float: left; color: #fff; text-transform: uppercase; margin: 12px 0 0 10px;}
+	#mobileNav .navBtn {float: right; color: #fff; margin: 0 10px 0 0;}
+	#mobileNav .navBtn p {font-size: 28pt; padding: 3px 0;}
+	#mobileNav .navBtn .close {display: none;}
+	header {width: 100%; padding-top: 100px;}
+	header .contain {width: 100%; margin: 0;}
+	header .contain .mobile-contain {width: 95%; margin: auto;}
+	header .hd-logo {width: 100%; text-align: center; margin: 0; padding: 0;}
+	header .hd-logo a img {max-width: 70%;}
+	header .headerSection {width: 100%; display: inline-block;}
+	header .missionStatement {overflow: auto; width: 100%; text-align: center;}
+	header .missionStatement img {max-width: 70%;}
+	header .search {width: 100%; vertical-align: bottom;}
+	header .search form {width: 95%; margin: 0 auto 10px auto;}
+	header .search form input {margin: 0 0 10px 0; padding: 0;}
+	header .search .myChart {width: 95%; margin: auto;}
+	header .search .myChart a {width: 100%;}
+	header .social {width: 100%;}
+	header .social ul {text-align: center; padding: 10px 0;}
+	.wrap-phone { top: 81px; }
+	#primaryNav {display: none; background: #fff; position: fixed; z-index: 995; top: 122px; box-shadow: 0 0 10px 0 rgba(000,000,000,0.7); width: 100%; margin: 0; padding: 0;}
+	#primaryNav ul {text-align: left; margin: 0; padding: 5px 0 10px 0;}
+	#primaryNav ul li {display: inline;}
+	#primaryNav ul li a, #primaryNav ul li:first-child a {width: 95%; margin: 0 auto; border: none; border-bottom: 1px solid #464647; padding: 12px 0 !important;}
+	.hero {height: 200px;}
+	.hero h1 {max-width: 90%; font-size: 30pt; line-height: 30pt; margin: 0 20px -7px 0;}
+	.sideBar {display: none; float: none; height: auto; width: 100%; min-height: auto; padding: 0;}
+	.mobile-sidebar {cursor: pointer; width: 100%; background: #d7e2ef;}
+	.mobile-sidebar p {color: #0054a6; font-size: 14pt; text-align: center; padding: 10px 0 15px 0;}
+	.mobile-sidebar p i {font-size: 18pt; margin: 0 0 0 10px;}
+	.mobile-sidebar p .up {display: none;}
+	.main {width: 100%;}
+
+	/* Slider */
+	.sliderWrap .carousel-inner .item {height: 200px;}
+	.carousel-caption {font-size: 30pt; line-height: 30pt;}
+	.boxes {text-align: center;}
+	.boxes .box:nth-child(even) {margin: 0;}
+	.boxes .box {width: 45%; height: 150px;}
+
+	/* Homepage */
+	.home .main .mainContent .wait_vid {float: none; width: 95%; margin: 10px auto;}
+	.home .main .mainContent .communication {float: none; width: 95%; margin: 10px auto;}
+	.homefooter ul li a {padding: 10px 20px;}
+	.homefooter ul li a i {font-size: 40pt;}
+	.homefooter ul li a span {font-size: 16pt;}
+
+	.homefooter ul li:first-child:nth-last-child(3),
+	.homefooter ul li:first-child:nth-last-child(3) ~ li {width:50%;}
+	.homefooter ul li:first-child:nth-last-child(4),
+	.homefooter ul li:first-child:nth-last-child(4) ~ li {width:50%;}
+	.homefooter ul li:first-child:nth-last-child(5),
+	.homefooter ul li:first-child:nth-last-child(5) ~ li {width:50%;}
+	.homefooter ul li:first-child:nth-last-child(6),
+	.homefooter ul li:first-child:nth-last-child(6) ~ li {width:50%;}
+
+	/* Doctors */
+	.doctors .main .mainContent {width: 100%;}
+	.doctors .main .mainContent .doc,
+	.doctors .main .mainContent .doc.col-2 {float: none; width: 95%; margin: 10px auto;}
+	.doctors .main .mainContent .doc.col-1 {margin-bottom: 30px;}
+	.doctors .main .mainContent .doc-list {width: 95%; margin: auto;}
+	.doctors .main .mainContent .doc-list .letters li {font-size: 10pt; width: 3.0%;}
+	.doctors .main .mainContent .doctor {border: none;}
+	.doctors .main .mainContent .doctor .column .content h4,
+	.doctors .main .mainContent .doctor .column .content p,
+	.doctors .main .mainContent .doctor .column .content li {font-size: 12pt;}
+	.doctors .main .mainContent .doctor .column.left,
+	.doctors .main .mainContent .doctor .column.right {float: none; width: 100%;}
+
+	/* Locations */
+	.location .main .mainContent {width: 100%;}
+	.main .mainContent .loc,
+	.main .mainContent .loc-content,
+	.main .mainContent p {float: none; width: 95%; margin: 10px auto;}
+	.acf-map {width: 85% !important; height: 250px !important;}
+
+	/* Calendar */
+	.tribe-events-calendar th {font-size: 7pt;}
+
+	/* Footer */
+	footer ul {margin: 10px 0;}
+	footer ul li {display: inline;}
+	footer ul li a {width: 90%; border: none; text-align: left; padding: 5px 0 0 20px;}
+
+	/* Columns */
+	.column-grid-2 .column-span-1 { width: 100% !important; margin-bottom: 1.5em; }
+
+	.btn-phones {
+		display: flex;
+		width: 100%;
+		justify-content: space-between;
+		padding: 0.5em;
+		font-size: 14pt;
+		text-transform: uppercase;
+		margin: 0;
+		border: none;
+		background-color: #0054a6;
+		color: #eddd4a;
+		font-weight: 700;
+	}
+
+	.nav-phones { display: none; }
+
+	.mm-img-box {
+		height: 215px;
+	}
+
+
+}
+
+@media (max-width:480px) {
+
+	.mm-box {
+		width: 98%;
+	}
+
+  /* Top Bar */
+  #topBar .topNav ul li a {font-size: 8pt;}
+
+  /* Banner Image */
+  .hero {height: 200px;}
+  .hero h1 {max-width: 90%; font-size: 26pt; line-height: 26pt; margin: 0 20px -7px 0;}
+
+  /* Sidebar */
+  .sideBar {padding: 10px 0;}
+  .sideBar img {display: block; margin: auto;}
+
+  /* Slider */
+  .boxes .box {width: 90%; margin: 0 auto 10px auto !important;}
+
+  /* Homepage */
+  .home .main .mainContent .wait_vid .videos .vids .vid {width: 95%; height: 175px;}
+  .home .vid {width:95%;}
+  .homefooter ul li a span {font-size: 13pt;}
+
+  /* Care & Treatment */
+  .main.ct .mainContent .heading .selection {width: 100%;}
+  .main.ct .mainContent .heading .selection select {width: 100%; max-width: none;}
+  .main.ct .mainContent .groups .group {width: 100%;}
+  .main.ct .mainContent .groups .group h3 {padding: 10px 0;}
+
+  /* News */
+  .single-news .main .news-title {font-size: 14pt;}
+  .post-type-archive-news .main .mainContent article h2,
+  .post-type-archive-news .main .mainContent article p {width: 90%; font-size: 10pt; margin: auto;}
+  .tax-news-topic .isNews article h2,
+  .tax-news-topic .isNews article p {width: 90%; font-size: 10pt; margin: auto;}
+
+  /* Cancer Care */
+  .cancer .main .mainContent {overflow: auto;}
+  .cancer .main .mainContent .column.one,
+  .cancer .main .mainContent .column.two {float: none; width: 100%; margin: 15px auto;}
+  .cancer .main .mainContent .column .content {width: 100%;}
+  .cancer .main .color-block h2 {font-size: 18pt; line-height: 20pt; padding: 15px 0;}
+
+  /* Doctors */
+  .doctors .main .mainContent .doc-list ul.specialties {float: none; width: 100%; padding: 0;}
+  .doctors .main .mainContent .doc-list .letters li {width: 6.5%; margin: 5px 0;}
+  .main .mainContent .doc {float: none; width: 100%; margin-bottom: 20px;}
+
+  /* Calendar */
+  .tribe-events-calendar th {font-size: 4pt;}
+
+  /* Footer */
+  footer .location p {width: 90%; margin: auto;}
+
+}

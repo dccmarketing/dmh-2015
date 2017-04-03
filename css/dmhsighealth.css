@@ -1,0 +1,276 @@
+/**
+ * Fonts for the DMH Signature Health Page.
+ *
+ * @license
+ * MyFonts Webfont Build ID 3261998, 2016-08-04T16:26:38-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: ZapfHumanist601BT-Roman by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/zapf-humanist-601/zapf-humanist-601/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: ZapfHumanist601BT-Bold by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/zapf-humanist-601/bold/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: ZapfHumanist601BT-Demi by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/zapf-humanist-601/demi/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: ZapfHumanist601BT-Ultra by Bitstream
+ * URL: http://www.myfonts.com/fonts/bitstream/zapf-humanist-601/ultra/
+ * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
+ * Licensed pageviews: 10,000
+ * 
+ * Webfont: UniversLT-Condensed by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/univers/57-condensed/
+ * Copyright:  Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted (c) 1987, 1991, 1994, 1998, 2004 Linotype Library GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype Libra
+ * Licensed pageviews: 250,000
+ * 
+ * Webfont: UniversLT-CondensedBold by Linotype
+ * URL: http://www.myfonts.com/fonts/linotype/univers/67-condensed-bold/
+ * Copyright:  Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted (c) 1987, 1991, 1994, 1998, 2004 Linotype Library GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype Libra
+ * Licensed pageviews: 250,000
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3261998
+ * 
+ * © 2016 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/31c62e");
+
+  
+@font-face {font-family: 'ZapfHumanist601BT-Roman';src: url('../fonts/31C62E_0_0.eot');src: url('../fonts/31C62E_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/31C62E_0_0.woff2') format('woff2'),url('../fonts/31C62E_0_0.woff') format('woff'),url('../fonts/31C62E_0_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ZapfHumanist601BT-Bold';src: url('../fonts/31C62E_1_0.eot');src: url('../fonts/31C62E_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/31C62E_1_0.woff2') format('woff2'),url('../fonts/31C62E_1_0.woff') format('woff'),url('../fonts/31C62E_1_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ZapfHumanist601BT-Demi';src: url('../fonts/31C62E_2_0.eot');src: url('../fonts/31C62E_2_0.eot?#iefix') format('embedded-opentype'),url('../fonts/31C62E_2_0.woff2') format('woff2'),url('../fonts/31C62E_2_0.woff') format('woff'),url('../fonts/31C62E_2_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'ZapfHumanist601BT-Ultra';src: url('../fonts/31C62E_3_0.eot');src: url('../fonts/31C62E_3_0.eot?#iefix') format('embedded-opentype'),url('../fonts/31C62E_3_0.woff2') format('woff2'),url('../fonts/31C62E_3_0.woff') format('woff'),url('../fonts/31C62E_3_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'UniversLT-Condensed';src: url('../fonts/31C62E_4_0.eot');src: url('../fonts/31C62E_4_0.eot?#iefix') format('embedded-opentype'),url('../fonts/31C62E_4_0.woff2') format('woff2'),url('../fonts/31C62E_4_0.woff') format('woff'),url('../fonts/31C62E_4_0.ttf') format('truetype');}
+ 
+  
+@font-face {font-family: 'UniversLT-CondensedBold';src: url('../fonts/31C62E_5_0.eot');src: url('../fonts/31C62E_5_0.eot?#iefix') format('embedded-opentype'),url('../fonts/31C62E_5_0.woff2') format('woff2'),url('../fonts/31C62E_5_0.woff') format('woff'),url('../fonts/31C62E_5_0.ttf') format('truetype');}
+
+
+
+/************************
+	DMH Signature Health Page Styles
+************************/
+.font-zaph {
+	font-family: ZapfHumanist601BT-Roman;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-zaph-bold {
+	font-family: ZapfHumanist601BT-Bold;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-zaph-demi {
+	font-family: ZapfHumanist601BT-Demi;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-zaph-ultra {
+	font-family: ZapfHumanist601BT-Ultra;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-univers-bold {
+	font-family: UniversLT-CondensedBold;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.font-univers {
+	font-family: UniversLT-Condensed;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.text-uppercase {
+	text-transform: uppercase;
+}
+
+.text-lowercase {
+	text-transform: lowercase;
+}
+
+.letterbox {
+	border-bottom: 3px solid #0054a6;
+	border-top: 3px solid #0054a6;
+	margin: 1.5em auto !important;
+}
+
+.line-middle {
+	display: table;
+	white-space: nowrap;
+}
+
+.line-middle:before,
+.line-middle:after {
+	border-top: 0.25em solid #0097a5;
+	content:"";
+	display: table-cell;
+	position: relative;
+	-webkit-transform: translateY(33%);
+	-ms-transform: translateY(33%);
+	transform: translateY(33%);
+}
+
+.line-middle:before {
+	right: 1.5%;
+}
+
+.line-middle:after {
+	left: 1.5%;
+}
+
+.lm-text-left:after {
+	width: 100%;
+}
+
+.lm-text-left:before {
+	width: 0;
+}
+
+.lm-text-right:before {
+	width: 100%;
+}
+
+.lm-text-right:after {
+	width: 0;
+}
+
+.lm-text-center:after,
+.lm-text-center:before {
+	width: 45%;
+}
+
+.float-left {
+	float: left;
+}
+
+.float-right {
+	float: right;
+}
+
+.float-left:after,
+.float-right:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+.clear:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.img-cheat {
+	margin-top: 0 !important;
+	background-color: #fff;
+}
+
+@media only screen and (max-width: 559px ) {
+	.alignleft {
+		display: block !important;
+		float: none !important;
+	}
+}
+
+.block-doc {
+	margin-bottom: 1.5em;
+}
+
+.dmh-signature-health .main .mainContent p,
+.sig-health-test .main .mainContent p,
+.dmh-signature-health .main .mainContent h2,
+.sig-health-test .main .mainContent h2,
+.dmh-signature-health .main .mainContent li,
+.sig-health-test .main .mainContent li,
+.dmh-signature-health .main .mainContent a,
+.sig-health-test .main .mainContent a,
+.dmh-signature-health .main .mainContent div,
+.sig-health-test .main .mainContent div {
+	color: #0054a6;
+	font-family: ZapfHumanist601BT-Roman;
+	font-weight: normal;
+	font-style: normal;
+	font-size: inherit;
+	list-style-image: url( ../images/bullet.jpg );
+}
+
+.dmh-signature-health .main .mainContent h2,
+.sig-health-test .main .mainContent h2 {
+	text-transform: uppercase;
+}
+
+.tablepress {
+	border-left: 10px solid #0097a5 !important;
+}
+
+.tablepress tfoot th,
+.tablepress thead th,
+.tablepress tbody tr .column-1 {
+	background-color: transparent !important;
+	color: #0054a6 !important;
+	font-weight: 700;
+}
+
+.main .mainContent .tablepress td {
+	color: #0097a5;
+	text-align: center;
+	width: 10%;
+}
+
+.main .mainContent .tablepress th {
+	text-align: center;
+}
+
+.tablepress tfoot .column-1, 
+.tablepress thead .column-1 {
+	color: #0097a5 !important;
+	text-align: left;
+}
+
+.tablepress td, 
+.tablepress th {
+	padding: 8px 4px !important;
+}
+
+.main .mainContent .tablepress tbody tr .column-1,
+.main .mainContent .tablepress thead .column-1 {
+	padding-left: 1em !important;
+	text-align: left;
+	width: auto;
+}
+
+
+
+
+
+
+

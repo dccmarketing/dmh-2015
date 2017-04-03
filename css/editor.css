@@ -1,0 +1,46 @@
+/**
+ * Separate stylesheet for styles that need to be available in the 
+ * WordPress editor as well the front-end.
+ */
+
+.btn {
+	display: inline-block;
+	text-align: center;
+	padding: 0.45em;
+	text-decoration: none;
+}
+
+.btn-large {
+	font-size: 2em;
+	font-weight: 700;
+}
+
+.btn-blue-sky,
+.main .mainContent a.btn {
+	background-color: #d7e2ef;
+	color: #0054a6;
+}
+
+.btn-blue-sky:hover,
+.main .mainContent a.btn:hover {
+	background-color: #0054a6;
+	color: #d7e2ef;
+}
+
+.alignleft {
+	display: inline;
+	float: left;
+	padding-right: 1.5em !important;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	padding-left: 1.5em !important;
+}
+
+.aligncenter {
+	display 		: block;
+	margin-left 	: auto;
+	margin-right 	: auto;
+}

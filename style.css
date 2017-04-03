@@ -1,0 +1,14 @@
+/*
+Theme Name: Decatur Memorial Hospital
+Theme URI: http://wordpress.org/themes/twentythirteen
+Author: fjorge Digital
+Author URI: http://fjorgedigital.com/
+Description: This is a custom theme designed by DCC Interactive Marketing and developed by fjorge Digital for Decatur Memorial Hospital
+Version: 1.0
+*/
+@import url("css/font-awesome.min.css");
+@import url("css/dmhsighealth.css");
+@import url("css/fresco/fresco.css");
+@import url("css/main.css");
+@import url("css/to-merge.css");
+@import url("css/events-calendar.css");
